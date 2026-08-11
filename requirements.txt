@@ -1,1 +1,5 @@
-
+import requests
+from io import BytesIO
+from PIL import image 
+from pdf2image import convert_from_path, convert_from_bytes
+from transformers import pipeline
